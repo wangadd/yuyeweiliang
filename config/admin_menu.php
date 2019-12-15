@@ -56,6 +56,44 @@ $admin_menu_config = [
 
         ]
     ],
+    'record' => [
+        'name' => '记录管理',
+        'icon' => 'layui-icon layui-icon-user',
+        'router' => '',
+        'limit' => 'admin.pemission',
+        'is_hide' => 0,
+        'sub_menus' => [
+            [
+                'title' => '记录详情',
+                'router' => 'admin.record.show',
+                'icon' => 'fa fa-circle-o',
+                'is_hide' => 0
+
+            ],
+            [
+                'title' => '记录添加',
+                'router' => 'admin.record.create',
+                'icon' => 'fa fa-circle-o',
+                'is_hide' => 0
+
+            ],
+            [
+                'title' => '记录删除',
+                'router' => 'admin.record.destroy',
+                'icon' => 'fa fa-circle-o',
+                'is_hide' => 1
+
+            ],
+            [
+                'title' => '记录编辑',
+                'router' => 'admin.record.edit',
+                'icon' => 'fa fa-circle-o',
+                'is_hide' => 1
+
+            ],
+
+        ]
+    ],
 
 ];
 //是否开启插件

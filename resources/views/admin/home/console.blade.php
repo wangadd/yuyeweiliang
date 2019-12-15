@@ -71,12 +71,12 @@
             </div>
         </div>
     </div>
-    <div class="layui-row layui-col-space15">
-        <div class="layui-card">
-            <div class="layui-card-header">插件</div>
-            <div class="layui-card-body layui-text">
-                <iframe src="{{ config('copyright.mark_url','//market.kongqikeji.com/') }}" height="400" frameborder="0" width="100%"></iframe>
-            </div>
-        </div>
-    </div>
+    {{--<div class="layui-row layui-col-space15">--}}
+        {{--<div class="layui-card">--}}
+            {{--<div class="layui-card-header">插件</div>--}}
+            {{--<div class="layui-card-body layui-text">--}}
+                {{--<iframe src="{{ config('copyright.mark_url','//market.kongqikeji.com/') }}" height="400" frameborder="0" width="100%"></iframe>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
 @endsection
