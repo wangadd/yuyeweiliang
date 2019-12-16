@@ -18,6 +18,7 @@
 
     @yield('add_css')
     @section('font_css')
+        <link rel="icon" href="http://yu.whandfd.com/upload/images/20191215/4633e103fbda405d11a295fd0e13598878743.jpg" type="image/x-icon" />
         <link rel="stylesheet" href="{{ ___('/themify-icons/themify-icons.css') }}">
     @show
 </head>
